@@ -1,0 +1,26 @@
+[
+    {   
+        "wishlist_text": "Optimus Prime Transformer",
+        "user_id": 1
+    },
+    {
+        "wishlist_text": "Lego Death Star",
+        "user_id": 2
+    },
+    {   
+        "wishlist_text": "Nerf Blaster",  
+        "user_id": 3
+    },
+    {   
+        "wishlist_text": "Volleyball",  
+        "user_id": 4
+    },
+    {   
+        "wishlist_text": "Easy Bake Oven",  
+        "user_id": 4
+    },
+    {   
+        "wishlist_text": "Scooter",  
+        "user_id": 4
+    }
+]

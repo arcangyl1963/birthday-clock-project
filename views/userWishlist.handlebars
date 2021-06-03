@@ -1,0 +1,31 @@
+<div class="wishlist-page">
+
+  <section id="user-wishlist">
+
+    <h1>{{name}}'s Wishlist! </h1>
+
+    {{#each wishlists as |wishlist|}}
+      <div class="wish-list-group">
+        <a id="wishlist-text" class="list-item" href="/api/wishlist/{{id}}">
+          <span>{{wishlist.wishlist_text}}</span>
+        </a>
+      </div>
+    {{/each}}
+
+  </section>
+
+  <div>
+    <button class="dashboard-btn"><a href="/dashboard">Return to dashboard</a></button>
+  <div> 
+
+    <br>
+
+  <div>  
+    <button class="dashboard-btn"><a
+        href="mailto:?subject=Check out my Birthday Wishlist!&amp;body=Check out this site https://tick-tock-birthday-clock.herokuapp.com/ and search for my wishlist!"
+      >
+        Share Wishlist
+      </a></button>
+  </div>
+
+</div>

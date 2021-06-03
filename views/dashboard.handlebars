@@ -1,0 +1,56 @@
+
+<div id="dashboard-logo">
+      <a href="/"><img src="../images/logo.png"  id="logo-dashboard"></a>
+</div>
+
+<br><br>   
+
+<div id="dashboard-container">
+<div class="row" id="welcome">
+  <div class="col-auto">
+    <h1>Hello {{name}}!</h1>
+  </div>
+</div>
+<br><br>
+<main class="col-auto">
+        {{{body}}}
+
+
+<pre>Enter your birthday in the calendar
+  (Hint: Enter the current year and not your birth year!)
+  and start the clock!</pre>
+  <br><br>
+<div id="formdiv">
+    <input id="myDate" type="date">
+    <button id="start-btn" onclick="window.initializeClock('clockdiv', 'myDate')">Start Countdown!</button>
+</div>
+<div id="clockdiv"></div>
+
+<br><br>
+  <div class="container hide-countdown">
+  <h1 id="headline">Countdown to my birthday:</h1>
+  <div id="countdown">
+    <ul>
+      <li><span id="days"></span>days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+</div>
+
+<br><br>
+<div id="dashboard-btns">
+      <button class="dashboard-btn"><a href="/wishlist">View My Wishlist</a></button>
+      <button class="dashboard-btn"><a href="/post">Add to My Wishlist</a></button>
+      <button class="dashboard-btn"><a href="/friendWishlist">Find a Friend's Wishlist</a></button>
+      <button class="dashboard-btn" id="logout-btn">Logout</button>
+</div>
+
+</div>
+
+<script src="/js/clock.js"></script>
+<script src="/js/logout.js"></script>
+
+
+
